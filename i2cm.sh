@@ -14,7 +14,7 @@ new_value=$(echo $inches*$i2cm | bc) 	## echo the arithmetic expression to the b
 echo "***************************************************"
 echo "$inches inches = $new_value centimeters"
 echo "***************************************************"
-echo    " Press any key, then hit Enter to return to menu "
+echo    " Hit Enter to return to menu "
 read tt
 sh unitMenu.sh				## Return to main menu
 
